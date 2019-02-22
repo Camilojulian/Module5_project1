@@ -1,7 +1,7 @@
 ---
-title: "Weather Preferences in the United States"
+title: "Weather Information Preferences"
 subtitle: "Summary Report For the `r params$region` Region"
-author: "Julián-Caballero, C. Camilo. M. Sc."
+author: "Julián-Caballero, Camilo"
 date: "18 de febrero de 2019"
 output: html_document
 params:
@@ -16,7 +16,6 @@ params:
     "West South Central"]
 ---
 
-
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 knitr:: read_chunk("code/setup.R")
 ```
@@ -26,19 +25,6 @@ knitr:: read_chunk("code/setup.R")
 
 ```{r loadData}
 ```
-
-<center><hr>
-![](images/sunstar.png){width=50}
-![](images/sunstar.png){width=50}
-![](images/sunstar.png){width=50}
-![](images/sunstar.png){width=50}
-![](images/sunstar.png){width=50}
-<hr></center>
-
-
-
-
-
 
 ```{r child="text/backgroundSection.Rmd"}
 ```
